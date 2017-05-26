@@ -38,6 +38,7 @@ module.exports = {
       stores: `${defaultSettings.srcPath}/stores/`,
       styles: `${defaultSettings.srcPath}/styles/`,
       reducers: `${defaultSettings.srcPath}/reducers/`,
+      pages: `${defaultSettings.srcPath}/pages/`,
       service: `${defaultSettings.srcPath}/service/`,
       libs: `${defaultSettings.srcPath}/libs/`,
       router: `${defaultSettings.srcPath}/router/`,
