@@ -8,11 +8,11 @@ import App  from '../pages/app';
 
 import Icons from 'components/ui/icons';
 
-// const Home = (location, cb) => {
-//   require.ensure([], require => {
-//     cb(null, require('../pages/home/home').default)
-//   },'Home')
-// };
+ const Home = (location, cb) => {
+  require.ensure([], require => {
+     cb(null, require('../pages/home/home').default)
+   },'Home')
+ };
 
 const routes = (
   <Route path="/" components={ Page }>
