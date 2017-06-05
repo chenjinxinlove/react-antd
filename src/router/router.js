@@ -5,17 +5,19 @@ import React from 'react';
 import { Route, IndexRedirect} from 'react-router';
 import Page from 'pages/Page.js';
 import App  from '../pages/app';
- // const Home = (location, cb) => {
- //  require.ensure([], require => {
- //     cb(null, require('../pages/home/home').default)
- //   },'Home')
- // };
+
+import Login from '../pages/Login'
+
+// const Login = (location, cb) => {
+//   require.ensure([], require => {
+//      cb(null, require('../pages/Login/').default)
+//    },'Login')
+//  };
 
 const routes = (
   <Route path="/" components={ Page }>
-    <IndexRedirect to="/app/ui/icons" />
-    <Route path='app' component = { App }>
-    </Route>
+    <IndexRedirect to="/Login" />
+    <Route path='/Login' component = { Login }></Route>
 
   </Route>
 );
