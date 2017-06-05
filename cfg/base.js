@@ -23,10 +23,7 @@ module.exports = {
     noInfo: false,
     host: '0.0.0.0',
     proxy: {
-      '/v1': {
-        target: 'https://mainsite-restapi.ele.me',
-        changeOrigin: true
-      }
+     
     }
   },
   resolve: {

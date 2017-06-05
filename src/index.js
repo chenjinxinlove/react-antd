@@ -1,5 +1,4 @@
 import 'core-js/fn/object/assign';
-import './styles/common.less';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
