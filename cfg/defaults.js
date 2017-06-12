@@ -48,7 +48,12 @@ function getDefaultModules() {
       },{
         test: /\.(json)$/,
         loader: 'json-loader'
+      },
+      {
+        test: /\.md$/,
+        loader: 'babel!react-markdown'
       }
+
     ]
   };
 }

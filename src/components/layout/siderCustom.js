@@ -66,42 +66,45 @@ class SiderCustom extends Component {
             <Link to='/app/dashboard/index'><Icon type="mobile"/><span className="nav-text">首页</span></Link>
           </Menu.Item>
           <SubMenu
-            key="/app/ui"
-            title={<span><Icon type="scan"/><span className="nav-text">数据管理</span></span>}
+            key="/app/standard"
+            title={<span><Icon type="scan"/><span className="nav-text">规范</span></span>}
           >
-            <Menu.Item key="/app/ui/buttons"><Link to={'/app/ui/buttons'}>用户列表</Link></Menu.Item>
-            <Menu.Item key="/app/ui/icons"><Link to={'/app/ui/icons'}>商家列表</Link></Menu.Item>
-            <Menu.Item key="/app/ui/spins"><Link to={'/app/ui/spins'}>食品列表</Link></Menu.Item>
-            <Menu.Item key="/app/ui/modals"><Link to={'/app/ui/modals'}>订单列表</Link></Menu.Item>
-            <Menu.Item key="/app/ui/notifications"><Link to={'/app/ui/notifications'}>管理员列表</Link></Menu.Item>
+            <Menu.Item key="/app/standard/js"><Link to={'/app/standard/js'}>JS规范</Link></Menu.Item>
+            <Menu.Item key="/app/standard/css"><Link to={'/app/standard/css'}>CSS规范</Link></Menu.Item>
+            <Menu.Item key="/app/standard/html"><Link to={'/app/standard/html'}>HTML规范</Link></Menu.Item>
+            <Menu.Item key="/app/standard/git"><Link to={'/app/standard/git'}>git分支规范</Link></Menu.Item>
+            <Menu.Item key="/app/standard/deploy"><Link to={'/app/standard/deploy'}>部署规范</Link></Menu.Item>
           </SubMenu>
           <SubMenu
             key="/app/animation"
-            title={<span><Icon type="rocket" /><span className="nav-text">添加数据</span></span>}
+            title={<span><Icon type="rocket" /><span className="nav-text">组件库</span></span>}
           >
 
-            <Menu.Item key="/app/animation/basicAnimations"><Link to={'/app/animation/basicAnimations'}>添加商铺</Link></Menu.Item>
-            <Menu.Item key="/app/animation/exampleAnimations"><Link to={'/app/animation/exampleAnimations'}>添加商品</Link></Menu.Item>
+            <Menu.Item key="/app/animation/basicAnimations"><Link to={'/app/animation/basicAnimations'}>jq插件</Link></Menu.Item>
+            <Menu.Item key="/app/animation/exampleAnimations"><Link to={'/app/animation/exampleAnimations'}>react组件</Link></Menu.Item>
           </SubMenu>
           <SubMenu
-            key="/app/table"
-            title={<span><Icon type="copy" /><span className="nav-text">图表</span></span>}
+            key="/app/document"
+            title={<span><Icon type="copy" /><span className="nav-text">文档</span></span>}
           >
 
-            <Menu.Item key="/app/table/basicTable"><Link to={'/app/table/basicTable'}>用户分布</Link></Menu.Item>
+            <Menu.Item key="/app/table/basicTable"><Link to={'/app/table/basicTable'}></Link></Menu.Item>
           </SubMenu>
           <SubMenu
             key="/app/form"
-            title={<span><Icon type="edit" /><span className="nav-text">编辑</span></span>}
+            title={<span><Icon type="edit" /><span className="nav-text">脚手架</span></span>}
           >
 
-            <Menu.Item key="/app/basicForm"><Link to={'/app/form/basicForm'}>文本编辑</Link></Menu.Item>
+            <Menu.Item key="/app/basicForm"><Link to={'/app/form/basicForm'}>多页面</Link></Menu.Item>
+            <Menu.Item key="/app/basicForm"><Link to={'/app/form/basicForm'}>小程序</Link></Menu.Item>
+            <Menu.Item key="/app/basicForm"><Link to={'/app/form/basicForm'}>react</Link></Menu.Item>
+            <Menu.Item key="/app/basicForm"><Link to={'/app/form/basicForm'}>ssr</Link></Menu.Item>
           </SubMenu>
           <SubMenu
             key="/app/chart"
-            title={<span><Icon type="area-chart" /><span className="nav-text">设置</span></span>}
+            title={<span><Icon type="area-chart" /><span className="nav-text">API文档</span></span>}
           >
-            <Menu.Item key="/app/chart/echarts"><Link to={'/app/chart/echarts'}>管理员设置</Link></Menu.Item>
+            <Menu.Item key="/app/chart/echarts"><Link to={'/app/chart/echarts'}>jq</Link></Menu.Item>
           </SubMenu>
           <SubMenu
             key="sub4"
