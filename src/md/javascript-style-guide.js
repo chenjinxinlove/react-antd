@@ -140,26 +140,7 @@ JavaScript 在百度一直有着广泛的应用，特别是在浏览器端的行
 
 ### 2.1 文件
 
-
-##### [建议] JavaScript 文件使用无 `BOM` 的 `UTF-8` 编码。
-
-解释：
-
-UTF-8 编码具有更广泛的适应性。BOM 在使用程序或工具处理文件时可能造成不必要的干扰。
-
-##### [建议] 在文件结尾处，保留一个空行。
-
-
-
-
-### 2.2 结构
-
-
-
-#### 2.2.1 缩进
-
-
-##### [强制] 使用 '4' 个空格做为一个缩进层级，不允许使用 '2' 个空格 或 'tab' 字符。`
+`
 var markdown = require( "markdown" ).markdown;
 html_content = markdown.toHTML( md_content );
 
